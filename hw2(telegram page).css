@@ -166,12 +166,19 @@ body{
     padding: 0px;
     position: absolute;
     top: -27px;
-    left: -57px;
+    left: -55px;
 }
 
 hr{
-    border: none; /* Убираем границу для браузера Firefox */
-    color: #000; /* Цвет линии для остальных браузеров */
-    background-color: #000; /* Цвет линии для браузера Firefox и Opera */
-    height: 2px; 
+    border: none;
+    position: relative;
+    left: -23px;
+    width: 270px;
+    color: #000;
+    background-color: #000;
+    height: 2px;
+}
+a{
+    position: relative;
+    left: 10px;
 }
