@@ -78,7 +78,7 @@ body{
     left: -10px;
 }
 
-mem{
+.mem{
     position: relative;
     top: 2px;
     left: 20px;
@@ -159,10 +159,14 @@ mem{
     font-size: 1rem;
 }
 
-
-
-
-
+.usr img{
+    width: 50px;
+    border-radius: 60px;
+    padding: 0px;
+    position: absolute;
+    top: -27px;
+    left: -57px;
+}
 
 hr{
     border: none; /* Убираем границу для браузера Firefox */
