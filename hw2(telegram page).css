@@ -15,7 +15,7 @@ body{
 .header {
     margin: -8px auto;
     width: 330px;
-    height: 44px;
+    height: 51px;
     background-color: #171717;
     padding: 6px;
     position: relative;
@@ -23,14 +23,32 @@ body{
     top: -5px;
 }
 
-img {
-    width: 32px;
+.headt1{
+    position: relative;
+    top: 8px;
+    left: 112px;
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.headt2{
+    position: relative;
+    top: 8px;
+    left: 112px;
+    font-size: 0.8rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+}
+
+.header img{
+    width: 50px;
     border-radius: 60px;
     padding: 0px;
     position: absolute;
-    top: 16px;
+    top: 9px;
     left: 60px;
-}
+}   
 
 .add{
     margin: 10px auto;
@@ -42,20 +60,60 @@ img {
     left: -10px;
 }
 
+.addmem{
+    position: relative;
+    top: 9px;
+    left: 56px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(90, 149, 236);
+}
+
 .members {
     margin: -6px auto;
-    width: 330px;
-    height: 22px;
+    width: 334px;
+    height: 28px;
     background-color: #171717;
     padding: 4px;
     position: relative;
     left: -10px;
 }
 
+.mem{
+    position: relative;
+    top: 2px;
+    left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(90, 149, 236);
+}
+
+.media{
+    position: relative;
+    top: -16px;
+    left: 114px;
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+}
+
+.links{
+    position: relative;
+    top: -34px;
+    left: 194px;
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+}
+
+.gif{
+    position: relative;
+    top: -51px;
+    left: 272px;
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+}
+
 .main{
     margin: 8px auto;
     width: 330px;
-    height: 503px;
+    height: 600px;
     background-color: #171717;
     color: #fff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -63,11 +121,59 @@ img {
     position: relative;
     left: -10px;
 }
-img {
-    width: 32px;
+
+.usr{
+    height: 60px;
+    position: relative;
+    left: 60px;
+    top: 26px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+}
+
+.usrtext{
+    height: 18px;
+    position: relative;
+    left: 5px;
+    top: -20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+}
+
+.podusr{
+    height: 0px;
+    position: relative;
+    left: 5px;
+    top: -12px;
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+    font-size: 0.8rem;
+}
+
+.own{
+    color: rgb(90, 149, 236);
+    position: relative;
+    top: -48px;
+    right: -212px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+}
+
+
+.usr img{
+    width: 50px;
     border-radius: 60px;
     padding: 0px;
     position: absolute;
-    top: 16px;
-    left: 60px;
+    top: -27px;
+    left: -57px;
+}
+
+
+
+hr{
+    border: none; /* Убираем границу для браузера Firefox */
+    color: #000; /* Цвет линии для остальных браузеров */
+    background-color: #000; /* Цвет линии для браузера Firefox и Opera */
+    height: 2px; 
 }
