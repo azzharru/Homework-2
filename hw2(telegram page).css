@@ -60,7 +60,13 @@ body{
     left: -10px;
 }
 
-
+.addmem{
+    position: relative;
+    top: 9px;
+    left: 56px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(90, 149, 236);
+}
 
 .members {
     margin: -6px auto;
