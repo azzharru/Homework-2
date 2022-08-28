@@ -78,7 +78,49 @@ body{
     left: -10px;
 }
 
+mem{
+    position: relative;
+    top: 2px;
+    left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(90, 149, 236);
+}
 
+.media{
+    position: relative;
+    top: -16px;
+    left: 114px;
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+}
+
+.links{
+    position: relative;
+    top: -34px;
+    left: 194px;
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+}
+
+.gif{
+    position: relative;
+    top: -51px;
+    left: 272px;
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+}
+
+.main{
+    margin: 8px auto;
+    width: 330px;
+    height: 600px;
+    background-color: #171717;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 6px;
+    position: relative;
+    left: -10px;
+}
 
 .usr{
     height: 60px;
